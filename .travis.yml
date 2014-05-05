@@ -1,8 +1,15 @@
 language: node_js
 node_js:
-  - '0.10'
+- '0.10'
 before_script:
-  - 'npm install -g bower grunt-cli'
-  - 'bower install'
-  - 'gem install compass'
+- npm install -g bower grunt-cli
+- bower install
+- gem install compass
 services: mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: Z5ZxBK642Kqi6Wb1m0K3NmI9fLl5x5pRlTACv4kQSGk3hRurHaXAfAKzqUwBjXsQvYguccJdtSyVE1SQ/nrZNqvxuxNbmBoFDoVTReWJ3SnTGsQxwCZnvDjCZlYBKvte771cQImgIBeyKnWsNSm3NhmgIud/A04pdqpKxttEmSA=
+  app: erikdeijlPortfolio
+  on:
+    repo: EDeijl/Portfolio
