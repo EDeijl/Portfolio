@@ -6,8 +6,9 @@ before_script:
 - bower install
 - gem install compass
 services: mongodb
-before_deploy: cd dist
-
+after_script:
+- grunt build
+- cd dist
 deploy:
   provider: heroku
   api_key:
