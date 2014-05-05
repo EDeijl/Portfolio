@@ -1,5 +1,7 @@
-Portfolio Erik Deijl
-=======
+
+## Portfolio Erik Deijl  [![Build Status](https://travis-ci.org/EDeijl/Portfolio.svg?branch=master)](https://travis-ci.org/EDeijl/Portfolio) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+
+
 
 What is it?
 ---
@@ -24,8 +26,8 @@ As far as I'm concerned you can copy all of it. Just use the right licence.
 Licence
 ----
 
- Copyright (c) <2014> <Erik Deijl>
-
+ Copyright (c) 2014 Erik Deijl
+ 
  Permission is hereby granted, free of charge, to any person
  obtaining a copy of this software and associated documentation
  files (the "Software"), to deal in the Software without
