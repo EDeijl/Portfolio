@@ -10,7 +10,7 @@ It will be able to generate my Resume on the fly.
 
 Why?
 ---
-Because I wanted to build something significant with Nodejs and Angularjs, and what better to promote your skills than building your portfolio with them?
+Because I wanted to build something significant with Nodejs and Angularjs, and what better way to promote your skills than building your portfolio with them?
 
 How?
 ---
