@@ -1,5 +1,7 @@
-Portfolio Erik Deijl
-=======
+
+## Portfolio Erik Deijl  [![Build Status](https://travis-ci.org/EDeijl/Portfolio.svg?branch=master)](https://travis-ci.org/EDeijl/Portfolio) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+
+
 
 What is it?
 ---
