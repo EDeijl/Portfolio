@@ -6,7 +6,7 @@ before_script:
 - bower install
 - gem install compass
 services: mongodb
-after_script:
+before_deploy:
 - grunt build
 - cd dist
 deploy:
