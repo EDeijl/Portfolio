@@ -9,7 +9,7 @@ services: mongodb
 deploy:
   provider: heroku
   api_key:
-    secure: Z5ZxBK642Kqi6Wb1m0K3NmI9fLl5x5pRlTACv4kQSGk3hRurHaXAfAKzqUwBjXsQvYguccJdtSyVE1SQ/nrZNqvxuxNbmBoFDoVTReWJ3SnTGsQxwCZnvDjCZlYBKvte771cQImgIBeyKnWsNSm3NhmgIud/A04pdqpKxttEmSA=
-  app: erikdeijlPortfolio
+    secure: Etkja6rA5og/sGdV6i8O6bPjeeMjeWuLWgIELfgB/MC72vqaXsokqswFvxCUpV/paWrWg52Dkpj3S58JXHSsblUB/edlX4DoJEFuY9NqXWKGl2wMzenSPSEoyGm7jSnaVglg2N/CoIcbVlm77ADH3bU/QyRx8zoOLjLrUG42JP0=
+  app: erikdeijlportfolio
   on:
     repo: EDeijl/Portfolio
