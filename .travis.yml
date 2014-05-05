@@ -6,10 +6,13 @@ before_script:
 - bower install
 - gem install compass
 services: mongodb
+before_deploy: cd dist
+
 deploy:
   provider: heroku
   api_key:
     secure: Etkja6rA5og/sGdV6i8O6bPjeeMjeWuLWgIELfgB/MC72vqaXsokqswFvxCUpV/paWrWg52Dkpj3S58JXHSsblUB/edlX4DoJEFuY9NqXWKGl2wMzenSPSEoyGm7jSnaVglg2N/CoIcbVlm77ADH3bU/QyRx8zoOLjLrUG42JP0=
+  skip_cleanup: true
   app: erikdeijlportfolio
   on:
     repo: EDeijl/Portfolio
